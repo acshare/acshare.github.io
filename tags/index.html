@@ -242,10 +242,61 @@
             </div>
             <div class="tag-chips">
                 
+                
+                <a href="/tags/%E7%83%AD%E8%A1%80/" title="热血: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="热血" style="background-color: #F9EBEA;">热血
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E5%AE%AB%E5%B4%8E%E9%AA%8F/" title="宫崎骏: 5">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="宫崎骏" style="background-color: #F5EEF8;">宫崎骏
+                        <span class="tag-length">5</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E5%90%89%E5%8D%9C%E5%8A%9B/" title="吉卜力: 5">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="吉卜力" style="background-color: #D5F5E3;">吉卜力
+                        <span class="tag-length">5</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
 </div>
+
+    
+    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
+<style type="text/css">
+    #tag-wordcloud {
+        width: 100%;
+        height: 300px;
+    }
+</style>
+
+<div class="container" data-aos="fade-up">
+    <div class="card">
+        <div id="tag-wordcloud" class="card-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
+<script type="text/javascript">
+    
+
+    $('#tag-wordcloud').jQCloud([{"text":"热血","weight":2,"link":"/tags/热血/"},{"text":"宫崎骏","weight":5,"link":"/tags/宫崎骏/"},{"text":"吉卜力","weight":5,"link":"/tags/吉卜力/"}], {
+        autoResize: true
+    });
+</script>
 
     
 
